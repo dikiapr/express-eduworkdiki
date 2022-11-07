@@ -7,8 +7,4 @@ const connection = mysql.createConnection({
   database: "eduwork-cruds",
 });
 
-// connection.connect(function (err) {
-//   if (err) throw err;
-// });
-
 module.exports = connection;
